@@ -1,0 +1,48 @@
+.adminDiv {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#adminNav{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    font-size: larger;
+    margin-bottom: 20px;
+    background-color: #232f3e;
+}
+#adminTable{
+    width: 100%;
+    border: 2px solid grey;    
+}
+#adminImage{
+    width:100%;
+    height: 100%
+}
+.adminCell{
+    border: 2px solid grey; 
+    width:15%;
+}
+.adminButton{
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 20px;
+    padding: 5px;
+}
+.adminButton:hover{
+    color: white;
+    background-color: #232f3e;
+    border-radius: 5px;
+}
+
+#adminForm input{
+    background-color: black;
+    border: 1px solid grey;
+    width:60%;
+    padding: 10px;
+    margin-top: 20px;
+    
+}

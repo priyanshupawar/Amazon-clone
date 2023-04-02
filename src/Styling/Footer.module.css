@@ -1,0 +1,81 @@
+.gototop {
+
+    width: 100%;
+    height: 50px;
+    background: rgb(55, 71, 90);
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    transition: all 3s;
+
+
+
+
+
+}
+
+.footer {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    height: auto;
+    /* width:100%; */
+    margin: auto;
+
+    padding: 20px 100px;
+    text-align: start;
+    justify-content: center;
+    border: 0px solid green;
+    background-color: rgb(35, 47, 62);
+    color: aliceblue;
+    padding-left: 180px;
+
+}
+
+.anchortag a {
+    color: aliceblue;
+    border: 0px solid white;
+    text-decoration: none;
+
+
+
+}
+
+a {
+    color: aliceblue;
+    border: 0px solid white;
+    text-decoration: none;
+
+
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+@media screen and (max-width: 850px) {
+    .hidden123 {
+        display: none;
+    }
+
+    .hiddentop {
+        padding-left: 40px;
+        padding-right: 40px;
+        border: 0px solid white;    
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(2, 120px);
+        justify-content: space-evenly;
+        padding-left: 90px;
+        column-gap: 40px;
+
+    }
+}

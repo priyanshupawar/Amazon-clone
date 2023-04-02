@@ -1,0 +1,6 @@
+.SideBar__Text:hover{
+  cursor: pointer;
+  color: orangered;
+  transition: box-shadow 1s ease-in-out;
+
+}

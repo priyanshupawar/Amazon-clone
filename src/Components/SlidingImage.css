@@ -1,0 +1,109 @@
+.slider1 {
+    height: 100%;
+    position: relative;
+  }
+  
+  .slidermain {
+    width: 100%;
+    height: 123%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  
+  @media (min-width:0px) and (max-width:850px) {
+    .slidermain img {
+      width:50%;
+      /* overflow: hidden; */
+      /* width: 100%; */
+      /* border: 5px solid red; */
+  
+  
+    }
+   
+   
+  
+  }
+  
+  .imagebtncontainer {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  
+  
+  }
+  
+  .sliderbtn {
+    border: none;
+  
+  
+    padding: 110px 40px;
+    font-size: 50px;
+    font-weight: 300px;
+    background-color: transparent;
+    color: black;
+  }
+  
+  .sliderbtn:hover {
+    border-color: skyblue;
+    border: 1px solid black;
+    /* box-shadow: 2px 2px 2px red;
+      box-shadow: 2px 2px 2px red; */
+    -moz-box-shadow: 0 0 5px #e41919;
+    -webkit-box-shadow: 0 0 5px #c31313;
+    box-shadow: 0 0 5px #bd1111;
+  
+    cursor: pointer;
+    margin: 2px;
+  
+  }
+  
+  
+  /* .leftslide {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-size: 60px;
+    color: black;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .rightslide {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 60px;
+    color: black;
+    z-index: 1;
+    cursor: pointer;
+  } */
+  
+  
+  #but1 {
+    background-color: black;
+    width: 15%;
+    height: 57px;
+    border-radius: 10%;
+    border: none;
+    position: absolute;
+    right: 41%;
+    bottom: -17%;
+    color: blacks;
+    font-size: 20px;
+  
+  }
+  
+  #but1:hover {
+    background-color: brown;
+  
+  }
+  
+  
+  
+  
+  /* ============================ */

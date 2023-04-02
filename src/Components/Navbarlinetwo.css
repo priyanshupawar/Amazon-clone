@@ -1,0 +1,130 @@
+.nav{
+    height:40px;
+    background-color: rgb(35,47,61);
+    padding:3px 0px;
+    /* padding: 2px ; */
+    overflow: hidden;
+
+}
+.containernav{
+    align-items: center;
+    justify-content: center;
+    /* color: aqua; */
+    /* padding-top: 9px; */
+    padding-left: 20px;
+    
+}
+.containernav ul{
+    padding: 0;
+    margin:0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* background-color: red; */
+    font-size: 1rem;
+    color: white;
+    list-style: none;
+} 
+@media (min-width:0px) and (max-width:800px){
+    .nav{
+        height: auto;
+    }
+    .containernav ul{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin:5px 0px;
+    }
+    .containernav ul li:nth-child(6){
+        display: none;
+    }
+    .containernav ul li:nth-child(7){
+        display: none;
+    }
+    .containernav ul li:nth-child(8){
+        display: none;
+    }
+    .containernav ul li:nth-child(9){
+        display: none;
+    }
+    .containernav ul li:nth-child(5){
+        display: none;
+    }
+
+}
+.containernav ul li a{
+   color: white;
+   text-decoration: none;
+   padding: 0px 3px;
+    
+   
+
+}
+.borderwhite{
+    margin:2px 10px;
+}
+.borderwhite:hover{
+    border: 1px solid white;
+    
+    
+}
+.primeimage{
+    background-color: rgb(248, 249, 249);
+    height: auto;
+    width: 300px;
+    position: absolute;
+    z-index: 10;
+    display: none;
+    margin-left: 60px;
+    margin-top: -20px;
+    padding: 5px;
+
+   
+}
+.primeimagehover:hover .primeimage{
+    transition: display 1s;
+    display: block;
+    margin-bottom: 200px;
+
+}
+
+/* sidebar */
+
+.sidebarcontainernavigation{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right:0;
+    left:0;
+    
+   
+    /* transform: translateX(-100%); */
+}
+.sidebarshow{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right:0;
+    left:0;
+    
+    background: rgba(204, 30, 30, 0.7);
+    z-index: 100;
+    z-index: 100;
+    /* transform: translateX(-100%); */
+
+}
+
+/*  */
+.cont123{
+    display: none;
+   
+}
+
+.open123{
+    display: block;
+   position: absolute;
+  
+   height: 250px;
+   width: 500px;
+   background-color: aqua;
+
+}

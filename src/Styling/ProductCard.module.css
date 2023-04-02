@@ -1,0 +1,4 @@
+.ProductCard:hover {
+  box-shadow: 0px 0px 10px rgba(199, 185, 185, 0.221);
+  transition:  0.2s ease-in-out;
+}
